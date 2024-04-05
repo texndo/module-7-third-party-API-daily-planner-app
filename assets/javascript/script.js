@@ -28,6 +28,12 @@ function updateHourlyBlocks() {
     });
 }
 
+//* Clear all tasks/events when clear button is clicked *\\
+$("#clearBtn").on("click", function () {
+    $(".description").val(""); // Clear all textarea inputs
+    localStorage.clear(); // Clear all saved tasks/events from local storage
+});
+
 updateHourlyBlocks();
 
 //* Display saved text from local storage in the respective time blocks *\\
