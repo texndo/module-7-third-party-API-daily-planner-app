@@ -1,7 +1,7 @@
 $(document).ready(function () {
     //* Display current date and time *\\
     var displaytime = document.querySelector("#currentDay");
-    var currentTime = dayjs().format("dddd, MMMM D, YYYY, h:mm:ss a");
+    var currentTime = dayjs().format("dddd, MMMM D, YYYY, h:mm:a");
     displaytime.textContent = currentTime;
 }); 
 
