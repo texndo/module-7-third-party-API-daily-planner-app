@@ -9,7 +9,7 @@
       rel="stylesheet" 
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
       crossorigin="anonymous"
-      />
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -31,8 +31,68 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+      <!-- Timeblocks go here -->
+      <!-- Example Time Block -->
+      <!-- <div class="row time-block">
+        <div class="col-1 hour">9AM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div> -->
+
+      <!-- Populate Time Blocks -->
       <div class="row time-block" data-hour="9">
         <div class="col-1 hour">9AM</div>
         <textarea class="col description"></textarea>
         <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
       </div>
+      <div class="row time-block" data-hour="10">
+        <div class="col-1 hour">10AM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- Repeat for hours 11AM to 4PM -->
+      <div class="row time-block" data-hour="11">
+        <div class="col-1 hour">11AM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- Repeat for hours 12PM to 4PM -->
+      <div class="row time-block" data-hour="12">
+        <div class="col-1 hour">12PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- Repeat for hours 1PM to 4PM -->
+      <div class="row time-block" data-hour="13">
+        <div class="col-1 hour">1PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block" data-hour="14">
+        <div class="col-1 hour">2PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block" data-hour="15">
+        <div class="col-1 hour">3PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block" data-hour="16">
+        <div class="col-1 hour">4PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 5PM Time Block -->
+      <div class="row time-block" data-hour="17">
+        <div class="col-1 hour">5PM</div>
+        <textarea class="col description"></textarea>
+        <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/javascript/script.js"></script>
+  </body>
+</html>
