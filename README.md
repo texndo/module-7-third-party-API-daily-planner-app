@@ -22,6 +22,8 @@ A simple calendar application for scheduling your work day. This application all
 This application runs in a browser while its HTML, CSS, JS, images, and README files are accessed through the author's GitHub repository at https://github.com/texndo/module-7-third-party-API-daily-planner-app 
 
 
+https://github.com/texndo/module-7-third-party-API-daily-planner-app/assets/151543445/92648c73-839e-4c20-a938-36a7488c5a06
+
 
 ## Usage 
 
